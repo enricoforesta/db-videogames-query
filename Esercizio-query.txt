@@ -207,7 +207,7 @@ AND awards.id = 1;
 
 9- Selezionare i giocatori che hanno giocato al gioco più atteso del 2018 in un torneo del 2019 (3306)
 
-9- SELECT DISTINCT players.*
+9- SELECT players.*
 FROM players
 INNER JOIN player_tournament ON players.id = player_tournament.player_id
 INNER JOIN tournaments ON player_tournament.tournament_id = tournaments.id
